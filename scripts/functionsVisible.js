@@ -39,7 +39,10 @@ import { openBurgerMenu } from "./burger-menu.js"
         }
         if (body.getAttribute('data-body-name') === 'shop') {
             document.querySelector('.welcome-section').style.display = 'none'           
-            document.querySelector('.shop-section').style.display = 'block'  
+            document.querySelector('.shop-section').style.display = 'block' 
+            document.querySelector('.shop-section').classList.remove('no-scroll')
+
+            
             document.querySelector('.bag-section').style.display = 'none'
             document.querySelector('.favorite-section').style.display = 'none'       
         }
