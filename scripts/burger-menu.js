@@ -46,6 +46,8 @@ btnBurgers.forEach(btnBurger => {
 
 document.querySelector('.open-filter').addEventListener('click', () => {
     document.querySelector('.form-settings').classList.toggle('active-filter')
+    document.querySelector('.button-submit').classList.toggle('active-filter')
+
     
 })
 
