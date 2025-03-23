@@ -743,6 +743,10 @@
 
         input[value=Apply] {
             display: none;
+
+            &.active-filter {
+                display: block;
+            }
         }
     } 
 
