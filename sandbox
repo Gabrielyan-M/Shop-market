@@ -1,0 +1,32 @@
+function filterCard (cards, filterObject) {
+
+    let filteredCardsArray = []
+    
+    
+    
+    cards.forEach(card => {
+        filterCheckObject.brand.forEach(elem => {
+           if (elem === card.brand) {
+            filteredCardsArray.push(card)
+           }
+        })
+        
+        filterCheckObject.type.forEach(elem => {
+           if (elem === card.type) {
+            filteredCardsArray.push(card)
+           }
+        })
+        
+        filterCheckObject.gender.forEach(elem => {
+           if (elem === card.gender) {
+            filteredCardsArray.push(card)
+           }
+        })
+
+    })
+
+    console.log(filteredCardsArray)
+    
+}
+    
+//.filterSneakers.js

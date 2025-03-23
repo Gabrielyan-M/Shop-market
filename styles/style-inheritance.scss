@@ -1,0 +1,54 @@
+%montserrat_medium {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+%montserrat_regular{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-style: normal;
+}
+
+%montserrat_italic{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-style: italic;
+}
+
+%rokkitt_regular {
+    font-family: 'Rokkitt';
+    font-weight: normal;
+    font-style: normal;
+}
+
+%background-image-settings {
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+%line-link {
+    &::after {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        content: '';
+        width: 25%;
+        height: 2px;
+        background-color: black;
+        transition: 0.3s;
+    }
+
+    &:hover {
+        &::after {
+            width: 100%;
+        }
+    }
+
+    &:focus {
+        &::after {
+            width: 100%;
+        }
+    }
+}
+
