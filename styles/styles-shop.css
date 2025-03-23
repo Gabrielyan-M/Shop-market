@@ -761,6 +761,9 @@ img {
   .settings-block input[value=Apply] {
     display: none;
   }
+  .settings-block input[value=Apply].active-filter {
+    display: block;
+  }
   .sneakers-block__container {
     -ms-grid-columns: auto 15px auto;
     grid-template-columns: auto auto;
