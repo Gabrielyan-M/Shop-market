@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: black;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background-color: white;
+}
+
+button {
+    border: unset;
+    border-radius: unset;
+    background-color: unset;
+    padding: 0px;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
