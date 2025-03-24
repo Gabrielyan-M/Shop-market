@@ -451,11 +451,32 @@ img {
   }
 }
 @media screen and (max-width: 650px) {
+  .bag-section .bag-container .list-model-block .list-model {
+    height: 50vh;
+  }
   .bag-section .bag-container .list-model-block .list-model .bag-cards__model {
     padding: 0px 20px;
   }
   .bag-section .bag-container .list-model-block .list-model .bag-cards__model img {
     display: none;
+  }
+  .bag-section .bag-container .list-model-block .list-model .bag-cards__model .model-info p {
+    font-size: 1rem;
+  }
+  .bag-section .bag-container .list-model-block .list-model .bag-cards__model .price {
+    font-size: 1.25rem;
+  }
+  .bag-section .bag-container .list-model-block > a {
+    font-size: 1.5rem;
+    margin: 3px 0px;
+  }
+  .bag-section .bag-container .bag-info .list-texts {
+    width: 90%;
+    opacity: 0.7;
+    gap: 5px;
+  }
+  .bag-section .bag-container .bag-info .list-texts li p {
+    font-size: 1rem;
   }
   .bag-section .bag-container .bag-info .total-amount__text p {
     font-size: 1.25rem;
