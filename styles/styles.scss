@@ -143,12 +143,12 @@
 
             &:nth-child(2) {
                 width: 24.375%;
-                background-image: url("/media/ws/ws-image1.png");
+                background-image: url("../media/ws/ws-image1.png");
                 @extend %background-image-settings;
             }
             &:nth-child(3) {
                 width: 30.678%;
-                background-image: url("/media/ws/ws-image2.png");
+                background-image: url("../media/ws/ws-image2.png");
                 @extend %background-image-settings;
             }
 
@@ -163,12 +163,12 @@
 
             &:nth-child(1) {
                 width: 38.021%;
-                background-image: url("/media/ws/ws-image3.png");
+                background-image: url("../media/ws/ws-image3.png");
                 @extend %background-image-settings;
             }
             &:nth-child(2) {
                 width: 16.979%;
-                background-image: url("/media/ws/ws-image4.png");
+                background-image: url("../media/ws/ws-image4.png");
                 @extend %background-image-settings;
             }
             &:nth-child(3) {
@@ -177,7 +177,7 @@
             }
             &:nth-child(4) {
                 width: 19.167%;
-                background-image: url("/media/ws/ws-image5.png");
+                background-image: url("../media/ws/ws-image5.png");
                 @extend %background-image-settings;
             }
         }
