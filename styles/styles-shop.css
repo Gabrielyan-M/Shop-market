@@ -812,3 +812,8 @@ img {
     font-size: 0.875rem;
   }
 }
+@media screen and (max-width: 367px) {
+  .info-sneakers-block__container .modal-sneaker-card__container .preview-image-block__container .image-block {
+    width: 30px;
+  }
+}
